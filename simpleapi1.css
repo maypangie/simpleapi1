@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+   /* flex-direction: column;
+    align-items: center; */
+    background-color: #000000;
+    color: white;
+    margin: 50px;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+#flowerInput {
+    padding: 10px;
+    width: 60%;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #ff005d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ /*#imageContainer img {
+   max-width: 300px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    width: 100%;
+    padding-left: 244px; */
+   
+
+#flowerimage {
+    width: 500px;
+    align-items: center;
+}
+
+.frame {
+    display: inline-block;
+    padding: 10px; /* Space around the image inside the frame */
+    background-color: #000000; 
+   /* border: 5px solid #ffffff; */
+    border-radius: 15px; /* Rounded corners */
+    position: relative;
+  }
+  
+  
+  .frame img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Round the image itself */
+  }
